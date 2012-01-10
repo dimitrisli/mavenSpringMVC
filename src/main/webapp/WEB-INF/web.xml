@@ -20,6 +20,8 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/springmvcDispatcher-servlet.xml</param-value>
+		<!-- param-value>This is where we define the Spring config xml files</param-value-->
+		<!-- param-value>for the ContextLoaderListener to load</param-value-->
 	</context-param>
 
 	<listener>

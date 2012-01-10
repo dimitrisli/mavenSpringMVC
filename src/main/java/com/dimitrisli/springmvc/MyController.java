@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class MyController {
 
 	private static final Logger logger = Logger.getLogger(MyController.class);
+	
 	@RequestMapping(method = RequestMethod.GET)
 	public String method(ModelMap modelMap){
 		modelMap.addAttribute("msg","Hello world");

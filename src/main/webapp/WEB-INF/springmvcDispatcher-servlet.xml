@@ -20,4 +20,12 @@
 		</property>
 	</bean>
 
+	<!--bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<propertyname = viewClass "
+			value="org.springframework.web.servlet.view.JstlView" />
+		<propertyname = prefix " value="/WEB-INF/views/" />
+		<propertyname = suffix " value=".jsp" />
+	</bean-->
+
 </beans>
